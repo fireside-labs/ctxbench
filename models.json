@@ -231,6 +231,46 @@
       "params_b": "4",
       "quant": "Q4_K_M",
       "path": "E:\\bench_models\\gemma-4-e4b\\google_gemma-4-E4B-it-Q4_K_M.gguf"
+    },
+    {
+      "key": "gemma-3n-e4b-q6",
+      "name": "Gemma 3n E4B",
+      "family": "gemma",
+      "params_b": "4",
+      "quant": "Q6_K",
+      "path": "E:\\models\\workbench\\moe_research\\gemma-3n\\gemma-3n-E4B-it-Q6_K.gguf"
+    },
+    {
+      "key": "gemma-3n-e2b-q4",
+      "name": "Gemma 3n E2B",
+      "family": "gemma",
+      "params_b": "2",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\moe_research\\gemma-3n\\gemma-3n-E2B-it-Q4_K_M.gguf"
+    },
+    {
+      "key": "gemma-3n-e2b-q6",
+      "name": "Gemma 3n E2B",
+      "family": "gemma",
+      "params_b": "2",
+      "quant": "Q6_K",
+      "path": "E:\\models\\workbench\\moe_research\\gemma-3n\\gemma-3n-E2B-it-Q6_K.gguf"
+    },
+    {
+      "key": "qwen3-8b-q6",
+      "name": "Qwen3-8B",
+      "family": "qwen",
+      "params_b": "8",
+      "quant": "Q6_K",
+      "path": "E:\\models\\product_validation\\qwen3-8b-q6_k.gguf"
+    },
+    {
+      "key": "qwen3.6-27b-q6",
+      "name": "Qwen3.6-27B",
+      "family": "qwen",
+      "params_b": "27",
+      "quant": "Q6_K",
+      "path": "E:\\models\\workbench\\moe_research\\Qwen3.6-27B-Q6_K.gguf"
     }
   ]
 }

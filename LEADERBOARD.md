@@ -24,6 +24,21 @@ Depth sweep uses pg 2048,128. Headline numbers (pg 128,32) are the d0 rows.
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 2 27B | Q4_K_M | 16384 | 682.4 | 3264.4 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 2 27B | Q4_K_M | 32768 | 561.2 | 2826.7 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 2 27B | Q4_K_M | 65536 | 414.1 | 2035.2 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E2B | Q4_K_M | 0 | 3066.9 | 10843.2 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E2B | Q4_K_M | 4096 | 3066.0 | 9766.8 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E2B | Q4_K_M | 16384 | 2957.4 | 9384.7 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E2B | Q4_K_M | 32768 | 2830.4 | 8487.5 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E2B | Q4_K_M | 65536 | 2666.0 | 7626.3 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E2B | Q6_K | 0 | 2835.2 | 10170.9 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E2B | Q6_K | 4096 | 2824.6 | 9508.5 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E2B | Q6_K | 16384 | 2742.4 | 8548.7 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E2B | Q6_K | 32768 | 2650.2 | 8353.8 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E2B | Q6_K | 65536 | 2473.5 | 7576.0 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E4B | Q6_K | 0 | 2113.5 | 7607.2 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E4B | Q6_K | 4096 | 2090.1 | 7123.7 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E4B | Q6_K | 16384 | 2044.7 | 6756.1 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E4B | Q6_K | 32768 | 1979.6 | 6536.5 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E4B | Q6_K | 65536 | 1874.2 | 6013.6 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E4B | Q4_K_M | 0 | 2302.8 | 7955.4 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E4B | Q4_K_M | 4096 | 2303.2 | 7458.8 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Gemma 3n E4B | Q4_K_M | 16384 | 2239.4 | 6890.5 |
@@ -104,6 +119,11 @@ Depth sweep uses pg 2048,128. Headline numbers (pg 128,32) are the d0 rows.
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3-32B | Q4_K_M | 16384 | 601.4 | 2267.1 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3-32B | Q4_K_M | 32768 | 462.8 | 1622.8 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3-32B | Q4_K_M | 65536 | 304.5 | 918.2 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3-8B | Q6_K | 0 | 2362.8 | 10953.9 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3-8B | Q6_K | 4096 | 2153.2 | 9202.6 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3-8B | Q6_K | 16384 | 1782.7 | 6964.4 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3-8B | Q6_K | 32768 | 1402.2 | 5183.1 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3-8B | Q6_K | 65536 | 941.3 | 2830.5 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3-8B | Q4_K_M | 0 | 2929.8 | 13090.9 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3-8B | Q4_K_M | 4096 | 2612.4 | 11081.7 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3-8B | Q4_K_M | 16384 | 2097.7 | 7846.9 |
@@ -114,6 +134,11 @@ Depth sweep uses pg 2048,128. Headline numbers (pg 128,32) are the d0 rows.
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3.5-35B | Q4_K_M | 16384 | 2680.6 | 6866.5 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3.5-35B | Q4_K_M | 32768 | 2423.7 | 6219.4 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3.5-35B | Q4_K_M | 65536 | 2046.3 | 5118.9 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3.6-27B | Q6_K | 0 | 768.0 | 3045.8 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3.6-27B | Q6_K | 4096 | 755.3 | 2992.5 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3.6-27B | Q6_K | 16384 | 718.9 | 2731.5 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3.6-27B | Q6_K | 32768 | 662.9 | 2279.1 |
+| freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3.6-27B | Q6_K | 65536 | 556.4 | 1575.8 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3.6-27B | Q4_K_XL | 0 | 938.0 | 3604.4 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3.6-27B | Q4_K_XL | 4096 | 918.3 | 3469.5 |
 | freya | NVIDIA GeForce RTX 5090 | Intel(R) Core(TM) Ultra 9 285K | Qwen3.6-27B | Q4_K_XL | 16384 | 864.6 | 3066.5 |
