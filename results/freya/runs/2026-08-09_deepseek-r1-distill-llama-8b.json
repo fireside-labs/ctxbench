@@ -4,6 +4,9 @@
   "family": "deepseek",
   "params_b": "8",
   "quant": "Q4_K_M",
+  "backend": [
+    "CUDA"
+  ],
   "test_date": "2026-08-09T05:41:24Z",
   "tests": [
     {
@@ -167,6 +170,114 @@
       "stddev_ts": 1.129,
       "avg_ns": 1957662766,
       "stddev_ns": 1990966
+    },
+    {
+      "depth": 98304,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 73.447,
+      "stddev_ts": 0.503,
+      "avg_ns": 1742814166,
+      "stddev_ns": 11985825
+    },
+    {
+      "depth": 98304,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 1650.432,
+      "stddev_ts": 16.409,
+      "avg_ns": 310242166,
+      "stddev_ns": 3069980
+    },
+    {
+      "depth": 98304,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 727.665,
+      "stddev_ts": 1.466,
+      "avg_ns": 2990394066,
+      "stddev_ns": 6020367
+    },
+    {
+      "depth": 131072,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 59.823,
+      "stddev_ts": 0.113,
+      "avg_ns": 2139633400,
+      "stddev_ns": 4044490
+    },
+    {
+      "depth": 131072,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 1199.992,
+      "stddev_ts": 14.823,
+      "avg_ns": 426712933,
+      "stddev_ns": 5257305
+    },
+    {
+      "depth": 131072,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 569.831,
+      "stddev_ts": 0.921,
+      "avg_ns": 3818681800,
+      "stddev_ns": 6175712
+    },
+    {
+      "depth": 196608,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 43.293,
+      "stddev_ts": 0.183,
+      "avg_ns": 2956661500,
+      "stddev_ns": 12536283
+    },
+    {
+      "depth": 196608,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 803.843,
+      "stddev_ts": 27.224,
+      "avg_ns": 637436500,
+      "stddev_ns": 21963890
+    },
+    {
+      "depth": 196608,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 399.632,
+      "stddev_ts": 0.616,
+      "avg_ns": 5445022800,
+      "stddev_ns": 8380955
+    },
+    {
+      "depth": 262144,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 33.884,
+      "stddev_ts": 0.061,
+      "avg_ns": 3777559400,
+      "stddev_ns": 6835798
+    },
+    {
+      "depth": 262144,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 621.42,
+      "stddev_ts": 3.772,
+      "avg_ns": 823940066,
+      "stddev_ns": 4983651
+    },
+    {
+      "depth": 262144,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 308.21,
+      "stddev_ts": 0.568,
+      "avg_ns": 7060129566,
+      "stddev_ns": 13015934
     }
   ]
 }

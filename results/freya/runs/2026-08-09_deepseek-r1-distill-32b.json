@@ -4,6 +4,9 @@
   "family": "deepseek",
   "params_b": "32",
   "quant": "Q4_K_M",
+  "backend": [
+    "CUDA"
+  ],
   "test_date": "2026-08-09T07:07:07Z",
   "tests": [
     {

@@ -4,6 +4,9 @@
   "family": "qwen",
   "params_b": "27",
   "quant": "Q4_K_XL",
+  "backend": [
+    "CUDA"
+  ],
   "test_date": "2026-08-09T04:58:44Z",
   "tests": [
     {

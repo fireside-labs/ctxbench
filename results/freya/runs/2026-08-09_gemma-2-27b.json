@@ -4,6 +4,9 @@
   "family": "gemma",
   "params_b": "27",
   "quant": "Q4_K_M",
+  "backend": [
+    "CUDA"
+  ],
   "test_date": "2026-08-09T05:34:12Z",
   "tests": [
     {

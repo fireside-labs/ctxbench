@@ -23,6 +23,8 @@ def main():
     ap.add_argument("--os", default="Windows 11")
     ap.add_argument("--build", type=int, default=10330)
     ap.add_argument("--commit", default="")
+    ap.add_argument("--backend", default="CUDA",
+                    help="compute backend: CUDA, ROCm, METAL, CPU, Vulkan (used when DB lacks it)")
     ap.add_argument("--quant", default="Q4_K_M")
     ap.add_argument("--ngl", type=int, default=99)
     ap.add_argument("--kv", default="q8_0")
@@ -72,8 +74,11 @@ def main():
     for key, rows in by_model.items():
         meta = model_meta.get(key, {})
         tests = []
+        backends = set()
         for r in rows:
             fn, pp, tg, depth, ts, std, ns, stdns, t, gpu, cpu, bn, bc, tk, tv, ngl, be = r
+            if be:
+                backends.add(be)
             tests.append({
                 "depth": depth,
                 "n_prompt": pp,
@@ -89,6 +94,7 @@ def main():
             "family": meta.get("family", ""),
             "params_b": meta.get("params_b", ""),
             "quant": meta.get("quant", args.quant),
+            "backend": sorted(backends) or [args.backend],
             "test_date": rows[0][8] or datetime.datetime.utcnow().isoformat(),
             "tests": tests,
         }
@@ -109,6 +115,7 @@ def main():
         },
         "engine": {
             "name": "llama.cpp",
+            "backend": args.backend,
             "build_commit": args.commit,
             "build_number": args.build,
         },

@@ -11,6 +11,7 @@
   },
   "engine": {
     "name": "llama.cpp",
+    "backend": "CUDA",
     "build_commit": "687e77892",
     "build_number": 10330
   },

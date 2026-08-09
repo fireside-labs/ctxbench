@@ -45,6 +45,7 @@ results/
   },
   "engine": {
     "name": "llama.cpp",
+    "backend": "CUDA",
     "build_commit": "687e77892",
     "build_number": 10330
   },
@@ -72,6 +73,7 @@ entry must include:
   "family": "qwen",
   "params_b": "35",
   "quant": "Q4_K_M",
+  "backend": ["CUDA"],
   "test_date": "2026-08-08T04:52:02Z",
   "tests": [
     {
@@ -92,9 +94,27 @@ entry must include:
 - Missing or unparseable `manifest.json`
 - Hardware fingerprint mismatches between manifest and run files
 - `build_number < 10330` (stale builds = garbage curves)
-- Tests not covering the full depth set `[0, 4096, 16384, 32768, 65536]`
+- Unknown `engine.backend` (must be CUDA, ROCm, METAL, CPU, Vulkan, MLX, ...)
+- Tests not covering the base depth set `[0, 4096, 16384, 32768, 65536]`
+  (deeper depths are welcome — a model benched to 131072 is strictly better)
 - `avg_ts <= 0` or `stddev_ts < 0`
 - Duplicate `model_key` within a submission
+
+## Multi-vendor / multi-backend
+
+The leaderboard is engine- and backend-aware on purpose:
+
+- **`engine.name`**: llama.cpp, vLLM, MLX, Ollama, ... whatever actually ran
+  the inference.
+- **`engine.backend`**: the compute backend — CUDA (NVIDIA), ROCm (AMD),
+  METAL (Apple), CPU, Vulkan, OPENCL, SYCL, MLX.
+- **`runs.backend`**: same value per run file, so rows are filterable by
+  stack in the leaderboard.
+
+AMD (ROCm) and Apple (METAL/MLX) submissions are first-class. If your
+runner isn't llama-bench, keep the depth set and `pg 2048,128` protocol
+where your engine supports it, and document any divergence in the PR
+description so the curve stays comparable.
 
 ## Rules of the road
 
