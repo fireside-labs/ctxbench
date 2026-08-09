@@ -1,0 +1,212 @@
+{
+  "bench": {
+    "engine": "llama.cpp",
+    "build": "b10330",
+    "quant": "Q4_K_M",
+    "ngl": 99,
+    "kv_cache": "q8_0",
+    "reps": 3,
+    "headline_pg": "128,32",
+    "depth_pg": "2048,128",
+    "depths": [
+      0,
+      4096,
+      16384,
+      32768,
+      65536
+    ],
+    "hardware": {
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "vram": 32606,
+      "cpu": "Intel(R) Core(TM) Ultra 9 285K",
+      "ram_gb": 63.4,
+      "machine": "Freya"
+    }
+  },
+  "models": [
+    {
+      "key": "qwen3.6-35b-a3b",
+      "name": "Qwen3.6-35B-A3B",
+      "family": "qwen",
+      "params_b": "35",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\moe_research\\Qwen3.6-35B-A3B-UD-Q4_K_M.gguf"
+    },
+    {
+      "key": "qwen3.6-27b",
+      "name": "Qwen3.6-27B",
+      "family": "qwen",
+      "params_b": "27",
+      "quant": "Q4_K_XL",
+      "path": "E:\\models\\workbench\\moe_research\\Qwen3.6-27B-UD-Q4_K_XL.gguf"
+    },
+    {
+      "key": "qwen3-30b-a3b",
+      "name": "Qwen3-30B-A3B",
+      "family": "qwen",
+      "params_b": "30",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\moe_research\\Qwen3-30B-A3B-Q4_K_M.gguf"
+    },
+    {
+      "key": "qwen3.5-35b",
+      "name": "Qwen3.5-35B",
+      "family": "qwen",
+      "params_b": "35",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\foundry-production\\qwen3.5-35b-bartowski.gguf"
+    },
+    {
+      "key": "qwen3-32b",
+      "name": "Qwen3-32B",
+      "family": "qwen",
+      "params_b": "32",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\fleet\\qwen3-32b-q4_k_m.gguf"
+    },
+    {
+      "key": "qwen3-14b",
+      "name": "Qwen3-14B",
+      "family": "qwen",
+      "params_b": "14",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\fleet\\qwen3-14b-q4_k_m.gguf"
+    },
+    {
+      "key": "qwen3-8b",
+      "name": "Qwen3-8B",
+      "family": "qwen",
+      "params_b": "8",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\fleet\\qwen3-8b-q4_k_m.gguf"
+    },
+    {
+      "key": "qwen2.5-coder-32b",
+      "name": "Qwen2.5-Coder-32B",
+      "family": "qwen",
+      "params_b": "32",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\fleet\\qwen2.5-coder-32b-instruct-q4_k_m.gguf"
+    },
+    {
+      "key": "qwen2.5-coder-14b",
+      "name": "Qwen2.5-Coder-14B",
+      "family": "qwen",
+      "params_b": "14",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\fleet\\qwen2.5-coder-14b-instruct-q4_k_m.gguf"
+    },
+    {
+      "key": "qwen2.5-coder-7b",
+      "name": "Qwen2.5-Coder-7B",
+      "family": "qwen",
+      "params_b": "7",
+      "quant": "Q4_K_M",
+      "path": "E:\\archive_spring_2026_data\\models\\Qwen2.5-Coder-7B-Instruct-Q4_K_M.gguf"
+    },
+    {
+      "key": "qwen2.5-14b",
+      "name": "Qwen2.5-14B",
+      "family": "qwen",
+      "params_b": "14",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\product_validation\\qwen2.5-14b-instruct-q4_k_m.gguf"
+    },
+    {
+      "key": "gemma-4-31b",
+      "name": "Gemma 4 31B",
+      "family": "gemma",
+      "params_b": "31",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\moe_research\\gemma-4-31B-it-Q4_K_M.gguf"
+    },
+    {
+      "key": "gemma-4-26b-a4b",
+      "name": "Gemma 4 26B-A4B",
+      "family": "gemma",
+      "params_b": "26",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\moe_research\\gemma-4-26B-A4B-it-UD-Q4_K_M.gguf"
+    },
+    {
+      "key": "gemma-4-e4b",
+      "name": "Gemma 4 E4B",
+      "family": "gemma",
+      "params_b": "4",
+      "quant": "Q6_K",
+      "path": "E:\\models\\product_validation\\gemma-4-E4B-it.q6_k.gguf"
+    },
+    {
+      "key": "gemma-4-e2b",
+      "name": "Gemma 4 E2B",
+      "family": "gemma",
+      "params_b": "2",
+      "quant": "Q6_K",
+      "path": "E:\\models\\product_validation\\gemma-4-E2B-it.q6_k.gguf"
+    },
+    {
+      "key": "gemma-3n-e4b",
+      "name": "Gemma 3n E4B",
+      "family": "gemma",
+      "params_b": "4",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\moe_research\\gemma-3n\\gemma-3n-E4B-it-Q4_K_M.gguf"
+    },
+    {
+      "key": "gemma-2-27b",
+      "name": "Gemma 2 27B",
+      "family": "gemma",
+      "params_b": "27",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\fleet\\gemma-2-27b-q4_k_m.gguf"
+    },
+    {
+      "key": "llama-3.1-8b",
+      "name": "Llama 3.1 8B",
+      "family": "llama",
+      "params_b": "8",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\fleet\\llama-3.1-8b-instruct-q4_k_m.gguf"
+    },
+    {
+      "key": "hermes-3-8b",
+      "name": "Hermes 3 Llama 3.1 8B",
+      "family": "llama",
+      "params_b": "8",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\fleet\\Hermes-3-Llama-3.1-8B.Q4_K_M.gguf"
+    },
+    {
+      "key": "deepseek-r1-distill-7b",
+      "name": "DeepSeek-R1-Distill-Qwen-7B",
+      "family": "deepseek",
+      "params_b": "7",
+      "quant": "Q4_K_M",
+      "path": "E:\\archive_spring_2026_data\\models\\DeepSeek-R1-Distill-Qwen-7B.Q4_K_M.gguf"
+    },
+    {
+      "key": "deepseek-r1-distill-llama-8b",
+      "name": "DeepSeek-R1-Distill-Llama-8B",
+      "family": "deepseek",
+      "params_b": "8",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\fleet\\DeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf"
+    },
+    {
+      "key": "deepseek-coder-v2-lite",
+      "name": "DeepSeek-Coder-V2-Lite",
+      "family": "deepseek",
+      "params_b": "16",
+      "quant": "Q4_K_M",
+      "path": "E:\\models\\workbench\\fleet\\deepseek-coder-v2-lite-q4_k_m.gguf"
+    },
+    {
+      "key": "solar-10.7b",
+      "name": "Solar 10.7B",
+      "family": "solar",
+      "params_b": "10",
+      "quant": "Q4_K_M",
+      "path": "E:\\archive_spring_2026_data\\models\\solar-10.7b-instruct-v1.0.Q4_K_M.gguf"
+    }
+  ]
+}
