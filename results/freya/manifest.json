@@ -1,0 +1,32 @@
+{
+  "machine": "freya",
+  "submitter": "",
+  "date": "2026-08-09",
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "vram_mib": 32606,
+    "cpu": "Intel(R) Core(TM) Ultra 9 285K",
+    "ram_gb": 63.4,
+    "os": "Windows 11"
+  },
+  "engine": {
+    "name": "llama.cpp",
+    "build_commit": "687e77892",
+    "build_number": 10330
+  },
+  "method": {
+    "quant": "Q4_K_M",
+    "ngl": 99,
+    "kv_cache": "q8_0",
+    "reps": 3,
+    "depths": [
+      0,
+      4096,
+      16384,
+      32768,
+      65536
+    ],
+    "pg_headline": "128,32",
+    "pg_depth": "2048,128"
+  }
+}
