@@ -1,5 +1,3 @@
 __pycache__/
 *.pyc
 *.db
-results/*/runs/*.json
-!results/*/manifest.json

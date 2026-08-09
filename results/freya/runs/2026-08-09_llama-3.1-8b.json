@@ -1,0 +1,172 @@
+{
+  "model_key": "llama-3.1-8b",
+  "model_name": "Llama 3.1 8B",
+  "family": "llama",
+  "params_b": "8",
+  "quant": "Q4_K_M",
+  "test_date": "2026-08-09T05:37:45Z",
+  "tests": [
+    {
+      "depth": 0,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 234.543,
+      "stddev_ts": 1.36,
+      "avg_ns": 545754133,
+      "stddev_ns": 3173261
+    },
+    {
+      "depth": 0,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 235.843,
+      "stddev_ts": 0.691,
+      "avg_ns": 542737533,
+      "stddev_ns": 1591259
+    },
+    {
+      "depth": 0,
+      "n_prompt": 128,
+      "n_gen": 32,
+      "avg_ts": 996.793,
+      "stddev_ts": 12.119,
+      "avg_ns": 160530733,
+      "stddev_ns": 1963800
+    },
+    {
+      "depth": 0,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 13179.915,
+      "stddev_ts": 1199.232,
+      "avg_ns": 39074600,
+      "stddev_ns": 3752302
+    },
+    {
+      "depth": 0,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 13239.229,
+      "stddev_ts": 1064.101,
+      "avg_ns": 38848266,
+      "stddev_ns": 3272029
+    },
+    {
+      "depth": 0,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 2993.007,
+      "stddev_ts": 7.551,
+      "avg_ns": 727031166,
+      "stddev_ns": 1835094
+    },
+    {
+      "depth": 4096,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 212.984,
+      "stddev_ts": 1.469,
+      "avg_ns": 601003633,
+      "stddev_ns": 4160349
+    },
+    {
+      "depth": 4096,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 11477.48,
+      "stddev_ts": 878.946,
+      "avg_ns": 44779933,
+      "stddev_ns": 3348520
+    },
+    {
+      "depth": 4096,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 2685.375,
+      "stddev_ts": 1.908,
+      "avg_ns": 810315400,
+      "stddev_ns": 575462
+    },
+    {
+      "depth": 16384,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 174.351,
+      "stddev_ts": 1.044,
+      "avg_ns": 734170866,
+      "stddev_ns": 4409997
+    },
+    {
+      "depth": 16384,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 8220.193,
+      "stddev_ts": 469.453,
+      "avg_ns": 62420966,
+      "stddev_ns": 3556234
+    },
+    {
+      "depth": 16384,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 2180.824,
+      "stddev_ts": 2.145,
+      "avg_ns": 997788533,
+      "stddev_ns": 982381
+    },
+    {
+      "depth": 32768,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 138.622,
+      "stddev_ts": 0.849,
+      "avg_ns": 923395533,
+      "stddev_ns": 5677487
+    },
+    {
+      "depth": 32768,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 5941.472,
+      "stddev_ts": 207.34,
+      "avg_ns": 86243633,
+      "stddev_ns": 2996741
+    },
+    {
+      "depth": 32768,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 1681.884,
+      "stddev_ts": 3.455,
+      "avg_ns": 1293791000,
+      "stddev_ns": 2654520
+    },
+    {
+      "depth": 65536,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 99.017,
+      "stddev_ts": 0.347,
+      "avg_ns": 1292718833,
+      "stddev_ns": 4538170
+    },
+    {
+      "depth": 65536,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 3209.118,
+      "stddev_ts": 64.966,
+      "avg_ns": 159589166,
+      "stddev_ns": 3243935
+    },
+    {
+      "depth": 65536,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 1105.694,
+      "stddev_ts": 0.775,
+      "avg_ns": 1967995966,
+      "stddev_ns": 1381443
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "model_key": "qwen2.5-coder-14b",
+  "model_name": "Qwen2.5-Coder-14B",
+  "family": "qwen",
+  "params_b": "14",
+  "quant": "Q4_K_M",
+  "test_date": "2026-08-09T05:19:07Z",
+  "tests": [
+    {
+      "depth": 0,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 137.335,
+      "stddev_ts": 0.51,
+      "avg_ns": 932033466,
+      "stddev_ns": 3465880
+    },
+    {
+      "depth": 0,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 137.392,
+      "stddev_ts": 0.414,
+      "avg_ns": 931645166,
+      "stddev_ns": 2807862
+    },
+    {
+      "depth": 0,
+      "n_prompt": 128,
+      "n_gen": 32,
+      "avg_ts": 580.825,
+      "stddev_ts": 6.765,
+      "avg_ns": 275495500,
+      "stddev_ns": 3228327
+    },
+    {
+      "depth": 0,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 7505.312,
+      "stddev_ts": 672.645,
+      "avg_ns": 68605766,
+      "stddev_ns": 6484146
+    },
+    {
+      "depth": 0,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 7492.664,
+      "stddev_ts": 675.779,
+      "avg_ns": 68726266,
+      "stddev_ns": 6532412
+    },
+    {
+      "depth": 0,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 1697.753,
+      "stddev_ts": 1.007,
+      "avg_ns": 1281694666,
+      "stddev_ns": 762007
+    },
+    {
+      "depth": 4096,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 125.221,
+      "stddev_ts": 0.872,
+      "avg_ns": 1022226466,
+      "stddev_ns": 7141106
+    },
+    {
+      "depth": 4096,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 6162.899,
+      "stddev_ts": 393.496,
+      "avg_ns": 83306633,
+      "stddev_ns": 5379532
+    },
+    {
+      "depth": 4096,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 1548.501,
+      "stddev_ts": 7.379,
+      "avg_ns": 1405250933,
+      "stddev_ns": 6695260
+    },
+    {
+      "depth": 16384,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 100.803,
+      "stddev_ts": 0.459,
+      "avg_ns": 1269824666,
+      "stddev_ns": 5779093
+    },
+    {
+      "depth": 16384,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 4052.747,
+      "stddev_ts": 176.989,
+      "avg_ns": 126495900,
+      "stddev_ns": 5560395
+    },
+    {
+      "depth": 16384,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 1183.151,
+      "stddev_ts": 0.949,
+      "avg_ns": 1839156666,
+      "stddev_ns": 1477074
+    },
+    {
+      "depth": 32768,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 79.534,
+      "stddev_ts": 0.387,
+      "avg_ns": 1609390433,
+      "stddev_ns": 7832103
+    },
+    {
+      "depth": 32768,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 2686.768,
+      "stddev_ts": 78.487,
+      "avg_ns": 190673133,
+      "stddev_ns": 5629715
+    },
+    {
+      "depth": 32768,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 888.935,
+      "stddev_ts": 0.589,
+      "avg_ns": 2447873100,
+      "stddev_ns": 1621540
+    },
+    {
+      "depth": 65536,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 55.684,
+      "stddev_ts": 0.081,
+      "avg_ns": 2298680733,
+      "stddev_ns": 3340084
+    },
+    {
+      "depth": 65536,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 1387.671,
+      "stddev_ts": 23.758,
+      "avg_ns": 369035766,
+      "stddev_ns": 6339722
+    },
+    {
+      "depth": 65536,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 563.526,
+      "stddev_ts": 0.419,
+      "avg_ns": 3861405366,
+      "stddev_ns": 2871564
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "model_key": "hermes-3-8b",
+  "model_name": "Hermes 3 Llama 3.1 8B",
+  "family": "llama",
+  "params_b": "8",
+  "quant": "Q4_K_M",
+  "test_date": "2026-08-09T05:39:02Z",
+  "tests": [
+    {
+      "depth": 0,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 236.566,
+      "stddev_ts": 1.0,
+      "avg_ns": 541082633,
+      "stddev_ns": 2281641
+    },
+    {
+      "depth": 0,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 237.736,
+      "stddev_ts": 1.303,
+      "avg_ns": 538422966,
+      "stddev_ns": 2944275
+    },
+    {
+      "depth": 0,
+      "n_prompt": 128,
+      "n_gen": 32,
+      "avg_ts": 1007.873,
+      "stddev_ts": 3.505,
+      "avg_ns": 158751466,
+      "stddev_ns": 552537
+    },
+    {
+      "depth": 0,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 13357.492,
+      "stddev_ts": 1157.945,
+      "avg_ns": 38533766,
+      "stddev_ns": 3516359
+    },
+    {
+      "depth": 0,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 13560.912,
+      "stddev_ts": 1112.269,
+      "avg_ns": 37934133,
+      "stddev_ns": 3265584
+    },
+    {
+      "depth": 0,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 3020.671,
+      "stddev_ts": 3.739,
+      "avg_ns": 720370500,
+      "stddev_ns": 891289
+    },
+    {
+      "depth": 4096,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 215.338,
+      "stddev_ts": 1.483,
+      "avg_ns": 594433733,
+      "stddev_ns": 4109101
+    },
+    {
+      "depth": 4096,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 11341.974,
+      "stddev_ts": 936.034,
+      "avg_ns": 45344766,
+      "stddev_ns": 3688170
+    },
+    {
+      "depth": 4096,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 2733.74,
+      "stddev_ts": 14.537,
+      "avg_ns": 795994100,
+      "stddev_ns": 4220836
+    },
+    {
+      "depth": 16384,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 177.544,
+      "stddev_ts": 0.755,
+      "avg_ns": 720954933,
+      "stddev_ns": 3066697
+    },
+    {
+      "depth": 16384,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 8420.259,
+      "stddev_ts": 510.99,
+      "avg_ns": 60955566,
+      "stddev_ns": 3705847
+    },
+    {
+      "depth": 16384,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 2214.051,
+      "stddev_ts": 8.574,
+      "avg_ns": 982823566,
+      "stddev_ns": 3812560
+    },
+    {
+      "depth": 32768,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 140.365,
+      "stddev_ts": 0.422,
+      "avg_ns": 911913533,
+      "stddev_ns": 2738440
+    },
+    {
+      "depth": 32768,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 6026.04,
+      "stddev_ts": 296.225,
+      "avg_ns": 85103000,
+      "stddev_ns": 4225270
+    },
+    {
+      "depth": 32768,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 1698.897,
+      "stddev_ts": 1.91,
+      "avg_ns": 1280831866,
+      "stddev_ns": 1439848
+    },
+    {
+      "depth": 65536,
+      "n_prompt": 0,
+      "n_gen": 128,
+      "avg_ts": 98.985,
+      "stddev_ts": 0.039,
+      "avg_ns": 1293121766,
+      "stddev_ns": 509896
+    },
+    {
+      "depth": 65536,
+      "n_prompt": 512,
+      "n_gen": 0,
+      "avg_ts": 3199.74,
+      "stddev_ts": 86.112,
+      "avg_ns": 160090900,
+      "stddev_ns": 4341035
+    },
+    {
+      "depth": 65536,
+      "n_prompt": 2048,
+      "n_gen": 128,
+      "avg_ts": 1106.928,
+      "stddev_ts": 3.332,
+      "avg_ns": 1965812433,
+      "stddev_ns": 5908464
+    }
+  ]
+}
